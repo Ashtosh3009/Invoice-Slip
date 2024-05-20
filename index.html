@@ -4,7 +4,10 @@
     <title>Document</title>
     <link href="https://cdn.jsdeliver.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <style>
-      
+      body {
+        background-color: rgb(18, 48, 38);
+        background-size: cover;
+        background-repeat: no-repeat;
     </style>
   </head>
 
@@ -83,12 +86,60 @@
       </tr>
       <tr>
         <td width="5%"></td>
-        <td width="500">B1 Client Address</td>
+        <td width="500">City, State Country</td>
+        <td width="200">&nbsp;&nbsp;&nbsp; Date Of Issue</td>
         <td width="200">&nbsp;&nbsp;&nbsp;</td>
+        <td width="200">&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="10%"></td>
+        <td width="500">ZIP CODE</td>
+        <td width="200">&nbsp;&nbsp;&nbsp;20/07/24</td>
         <td width="200">&nbsp;&nbsp;&nbsp;</td>
         <td width="200">&nbsp;&nbsp;&nbsp;</td>
       </tr>
     </table>
+    <!-- lines -->
+    <hr />
+    <table class="table">
+      <thead id="tablehead">
+        <tr>
+          <th id="ids">Id</th>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody id="newtr">
+      
+      </tbody>
+
+    </table>
+    <hr>
+    <table class="table">
+      <tr>
+        <th width="20%"></th>
+         <th width="20%"></th>
+         <th width="20%"></th>
+         <th width="20%">Subtotal:</th>
+         <th width="20%" id="subtotal-amount"></th>
+      </tr>
+      <tr>
+        <th width="20%"></th>
+         <th width="20%"></th>
+         <th width="20%"></th>
+         <th width="20%">Tax:</th>
+         <th width="20%">50 Rs</th>
+      </tr>
+      <tr>
+        <th width="20%"></th>
+         <th width="20%"></th>
+         <th width="20%"></th>
+         <th width="20%">Total Amount(RS)</th>
+         <th width="20%" id="total"></th>
+      </tr>
+    <hr>
 
     <script></script>
   </body>
